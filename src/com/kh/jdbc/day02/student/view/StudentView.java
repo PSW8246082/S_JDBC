@@ -131,6 +131,7 @@ public class StudentView {
 		System.out.println("4. 학생 정보 등록");
 		System.out.println("5. 학생 정보 수정");
 		System.out.println("6. 학생 정보 삭제");
+		System.out.println("0. 프로그램 종료");
 		System.out.print("메뉴 선택 : ");
 		int input = sc.nextInt();
 		return input;
