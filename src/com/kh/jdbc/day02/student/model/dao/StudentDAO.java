@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kh.jdbc.day01.student.model.vo.Student;
+import com.kh.jdbc.day02.student.model.vo.Student;
 
 public class StudentDAO {  //dao는 오라클에 있는 전체 정보를 가져와서 객체화 하는것
 
