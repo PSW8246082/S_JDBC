@@ -1,4 +1,4 @@
-package com.kh.jdbc.day03.student.vo;
+package com.kh.jdbc.day03.student.model.vo;
 
 import java.sql.Date;
 

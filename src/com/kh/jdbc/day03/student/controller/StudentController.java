@@ -3,7 +3,7 @@ package com.kh.jdbc.day03.student.controller;
 import java.util.List;
 
 import com.kh.jdbc.day03.student.model.dao.StudentDAO;
-import com.kh.jdbc.day03.student.vo.Student;
+import com.kh.jdbc.day03.student.model.vo.Student;
 
 public class StudentController {    //반환값 처리
 	

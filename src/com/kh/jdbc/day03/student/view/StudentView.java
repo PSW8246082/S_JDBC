@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import com.kh.jdbc.day03.student.controller.StudentController;
-import com.kh.jdbc.day03.student.vo.Student;
+import com.kh.jdbc.day03.student.model.vo.Student;
 
 public class StudentView {   //화면 출력
 	

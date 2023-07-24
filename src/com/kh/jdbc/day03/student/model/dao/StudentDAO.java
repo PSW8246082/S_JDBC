@@ -4,12 +4,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kh.jdbc.day03.student.vo.Student;
+import com.kh.jdbc.day03.student.model.vo.Student;
 
 public class StudentDAO {   //데이터 접근 객체
 	
 	private final String DRIVERNAME = "oracle.jdbc.driver.OracleDriver";
-	private final String URL = "jdbc:oracle:thin:@127.0.0.1:1521:XE";
+	private final String URL = "jdbc:oracle:thin:@localhost:1521:XE";
+//	private final String URL = "jdbc:oracle:thin:@127.0.0.1:1521:XE";
 	private final String USER = "STUDENT";
 	private final String PASSWORD = "STUDENT";
 	Student student = null;
